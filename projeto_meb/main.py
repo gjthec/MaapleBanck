@@ -21,10 +21,10 @@ def send_to_chatfuel(phone, name, value, due_date, payment_link):
         payment_link (str): Link para pagamento.
     """
     # Configurações da API do Chatfuel
-    CHATFUEL_API_URL = "https://api.chatfuel.com/bots/67532c2ffdc1d12fb3d990ba/users/9785416860/send"
+    CHATFUEL_API_URL = ""
 
-    CHATFUEL_TOKEN = "TAZRdawS0kXiagTVrbbk0FnQvCBxMs8Rx2tMfgVlYeOnYBwyh1RVCkNCHhr4dFul"
-    BLOCK_NAME = "Coletar_informações"
+    CHATFUEL_TOKEN = ""
+    BLOCK_NAME = ""
 
     payload = {
         "chatfuel_token": CHATFUEL_TOKEN,
